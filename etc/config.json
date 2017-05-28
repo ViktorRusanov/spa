@@ -1,0 +1,11 @@
+{
+  "apiPrefix": "http://localhost:8080",
+  "serverPort": "8080",
+  "db": {
+    "name": "vr_notes", 
+    "host": "@ds155411.mlab.com",
+    "port": 55411,
+    "user": "admin",
+    "password": "1"
+  }
+}
