@@ -1,0 +1,53 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack-devserver": "webpack-dev-server --debug --hot --devtool eval-source-map --output-pathinfo --watch --colors --inline --content-base public --port 8090 --host 0.0.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViktorRusanov/spa"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViktorRusanov/spa/issues"
+  },
+  "homepage": "https://github.com/ViktorRusanov/spa#readme",
+  "dependencies": {
+    "axios": "^0.16.1",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.17.2",
+    "classnames": "^2.2.5",
+    "cors": "^2.8.3",
+    "create-react-class": "^15.5.3",
+    "events": "^1.1.1",
+    "express": "^4.15.3",
+    "flux": "^3.1.2",
+    "keymirror": "^0.1.1",
+    "less": "^2.7.2",
+    "mongoose": "^4.10.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-masonry-component": "^5.0.5"
+  },
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "babel": "^6.23.0",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^0.28.1",
+    "file-loader": "^0.11.1",
+    "json-loader": "^0.5.4",
+    "less-loader": "^4.0.3",
+    "react-hot-loader": "^1.3.1",
+    "style-loader": "^0.17.0",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
